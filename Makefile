@@ -2,7 +2,9 @@
 
 help:
 	@echo "Available commands:"
+# http://localhost:5173
 	@echo "  make dev-frontend    - Starts the frontend development server (Vite)"
+# http://127.0.0.1:2024
 	@echo "  make dev-backend     - Starts the backend development server (Uvicorn with reload)"
 	@echo "  make dev             - Starts both frontend and backend development servers"
 
@@ -15,6 +17,6 @@ dev-backend:
 	@cd backend && langgraph dev
 
 # Run frontend and backend concurrently
-dev:
+dev: # http://localhost:5173/app
 	@echo "Starting both frontend and backend development servers..."
 	@make dev-frontend & make dev-backend 
