@@ -34,11 +34,11 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({
     </div>
     {/* 
     <p className="text-xs text-center text-neutral-500">
-        This is a LangGraph Research Agent demo, built by
-        <a href="https://github.com/alisterbaroi" target="_blank" rel="noopener noreferrer" className="ml-1 text-orange-400">
-          Alister Baroi
-        </a>
-      </p>
+      This research agent is a demo & built for research purposes only, by the internal development team at
+      <a href="https://tigera.io" target="_blank" rel="noopener noreferrer" className="ml-1 text-orange-400">
+        Tigera Inc.
+      </a>
+    </p>
     */}
   </div>
 );
