@@ -116,7 +116,7 @@ _Note: If you are not running the docker-compose.yml example or exposing the bac
 **2. Run the Production Server:**
 
    ```bash
-   GEMINI_API_KEY=<your_gemini_api_key> LANGSMITH_API_KEY=<your_langsmith_api_key> docker-compose up
+   GEMINI_API_KEY=<your_gemini_api_key> LANGSMITH_API_KEY=<your_langsmith_api_key> docker compose up
    ```
 
 Open your browser and navigate to `http://localhost:8123/app/` to see the application. The API will be available at `http://localhost:8123`.
