@@ -99,6 +99,19 @@ _Note: If you are not running the docker-compose.yml example or exposing the bac
    ```bash
    docker build -t gemini-fullstack-langgraph -f Dockerfile .
    ```
+>  [!TIP]
+>  Check port `8123` is available:
+>  ```bash
+>  # Should output none
+>  lsof -t -i:8123
+>  ```
+>  To kills any processes on port 8123:
+>  ```bash
+>  # Should output none
+>  kill -9 $(lsof -i:8123)
+>  ```
+
+
 **2. Run the Production Server:**
 
    ```bash
